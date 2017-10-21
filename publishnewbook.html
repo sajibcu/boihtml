@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./resource/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./resource/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <center><h2>Publish a new book</h2></center>
+  <form class="form-horizontal" action="/action_page.php" method="post" enctype="multipart/form-data">
+  
+    <div class="form-group">
+      <label class="control-label col-sm-2" >Title</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="title"  name="title">
+      </div>
+    </div>
+	
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="email">Description</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="des"  name="description">
+      </div>
+    </div>
+	
+	<div class="form-group">
+      <label class="control-label col-sm-2" >Cover Photo</label>
+      <div class="col-sm-10">
+        <input type="file" class="form-control" id="coverphoto"  name="coverphoto">
+      </div>
+    </div>
+	
+	<div class="form-group">
+      <label class="control-label col-sm-2" >ISBN no</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="title"  name="isbn">
+      </div>
+    </div>
+	
+	<div class="form-group">
+      <label class="control-label col-sm-2" >Pdf file</label>
+      <div class="col-sm-10">
+        <input type="file" class="form-control" id="pdf"  name="pdf">
+      </div>
+    </div>
+	
+	
+	
+	
+	
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-info">Upload/Submit</button>
+      </div>
+    </div>
+	<div class="form-group">
+    
+  </form>
+</div>
+
+
+</body>
+</html>
